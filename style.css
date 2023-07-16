@@ -31,6 +31,7 @@ body {
   background-image: url("images/header-shapes-mobile.png");
   background-repeat: none;
   height: 587px;
+  width: 375px;
 }
 
 .container {
