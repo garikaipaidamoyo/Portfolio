@@ -241,9 +241,10 @@ hr {
   padding: 10px 0 10px 10px;
 }
 
+/* Contact form*/
 
 .contact-container {
-  background: url('./assets/contact/contact-form-mobile.svg') 100% 21px no-repeat;
+  background: url('./assets/contact/header-shapes-mobile.png') 100% 21px no-repeat;
   display: flex;
   flex-direction: column;
   background-color: #5564eb;
