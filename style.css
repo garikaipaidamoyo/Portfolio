@@ -191,6 +191,7 @@ body {
   width: 320px;
   padding: 24px;
   margin-top: 100px;
+  height: 1050px;
 }
 
 .aboutme {
@@ -241,105 +242,118 @@ hr {
   padding: 10px 0 10px 10px;
 }
 
-/* Contact form*/
+/* Contact form */
 
-.contact-container {
-  background: url('./images/contact-form-mobile.svg') 100% 21px no-repeat;
-  display: flex;
-  flex-direction: column;
-  background-color: #5564eb;
-  min-height: 779px;
-  border-top-left-radius: 80px;
-  object-fit: cover;
-  margin-top: 1rem;
-  width: 320px;
-  padding: 24px;
-}
-
-.contact-container h2 {
-  padding-top: 103px;
-  color: #ffff;
-  text-align: center;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-}
-
-.contact-title {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  padding-top: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #ffff;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  text-align: center;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  width:95%;
+.contact {
+  width: 370px;
+  height: 779px;
+  background: #ffff;
 }
 
 .contact-form {
-  margin-top: 1.5rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  height: 100%;
-  
+  background: #6070ff;
+  border: none;
+  width: 370px;
+  height: 789px;
+  margin-left: -1px;
+  border-top-left-radius: 80px;
+  padding: 0;
 }
 
-.input-section {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  gap: 1rem;
+.background-img {
+  background-image: url("images/contact-form-mobile.svg");
+  height: 709px;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 30px;
 }
 
-input {
-  border-radius: 8px;
-  border-style: none;
-  padding-left: 1rem;
-  height: 2.9rem;
-  width: 100%;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 20px;
-  text-align: left;
-  outline: none;
-}
-
-textarea {
-  border-radius: 8px;
-  border-style: none;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  width: 100%;
-  height: 13rem;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 20px;
-  outline: none;
-}
-
-.submit {
-  margin-top: 1rem;
-  margin-left: 2.3rem;
-  background-color: #fff;
-  border: 2px solid #5564eb;
-  border-radius: 8px;
-  color: #5564eb;
-  padding: 1rem;
-  width: 50%;
+.contact-heading {
+  color: #fff;
   text-align: center;
-  justify-content: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  position: absolute;
+  margin-top: 80px;
+  width: 345px;
+}
+
+.contact-details {
+  color: #ebebff;
+  text-align: center;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 140px;
+  width: 325px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+form {
+  position: absolute;
+  margin-top: 280px;
+  padding: 20px;
+  width: 375px;
+}
+
+#username,
+#email {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  margin-bottom: 20px;
+  color: #172b4d;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 5px;
+}
+
+#textarea {
+  width: 327px;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  color: #b3bac5;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px 16px;
+  color: #6070ff;
+  text-align: center;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 17px;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
   line-height: 24px;
+  letter-spacing: 0.51px;
+  border: 1px solid #fff;
 }
 
+.footer-div {
+  width: 134px;
+  height: 5px;
+  border-radius: 10px;
+  background: #0d151e;
+  margin: -10px 120px;
+}
