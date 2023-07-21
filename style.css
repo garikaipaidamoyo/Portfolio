@@ -284,6 +284,7 @@ hr {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   height: 100%;
+  
 }
 
 .input-section {
@@ -323,6 +324,7 @@ textarea {
 
 .submit {
   margin-top: 1rem;
+  margin-left: 2.3rem;
   background-color: #fff;
   border: 2px solid #5564eb;
   border-radius: 8px;
