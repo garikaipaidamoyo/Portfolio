@@ -7,7 +7,7 @@
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
+    - [Setup.](#setup)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -51,7 +51,7 @@ Example command:
 ```
  -->
 
-### Setup
+### Setup.
 
 Clone this repository to your desired folder:
 
