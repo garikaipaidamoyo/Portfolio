@@ -1,6 +1,6 @@
 # 📗 Table of Contents.g
 
-- [📗 Table of Contents](#-table-of-contents)
+- [📗 Table of Contents.g](#-table-of-contentsg)
 - [📖 Portfolio ](#-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
