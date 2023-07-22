@@ -357,3 +357,21 @@ form {
   background: #0d151e;
   margin: -10px 120px;
 }
+
+.contact-btn:hover,
+.see:hover,
+.abt:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  transform: scale(1.08);
+}
+
+.a:hover {
+  cursor: pointer;
+}
+
+.fa-brands:hover {
+  color: #6070ff;
+  transform: scale(1.08);
+}
