@@ -362,7 +362,7 @@ form {
 .see:hover,
 .abt:hover {
   cursor: pointer;
-  background-color: #000;
+  background-color: #6070ff;
   color: white;
   transform: scale(1.08);
 }
@@ -372,6 +372,24 @@ form {
 }
 
 .fa-brands:hover {
+  color: #6070ff;
+  transform: scale(1.08);
+}
+
+.contact-btn:active,
+.see:active,
+.abt:active {
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  transform: scale(1.08);
+}
+
+.a:active {
+  cursor: pointer;
+}
+
+.fa-brands:active {
   color: #6070ff;
   transform: scale(1.08);
 }
